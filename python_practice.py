@@ -115,3 +115,5 @@ for key in words:
 
 def sentence(list):
     print("A %s %s will %s you."%(list['adjective'], list['noun'], list['verb']))
+
+sentence(words)
